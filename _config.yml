@@ -30,7 +30,7 @@ twitter_username: duggirlaa
 github_username:  gitdvp17
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
