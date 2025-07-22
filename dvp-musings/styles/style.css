@@ -1,0 +1,51 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #5d7f9f;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #8a99aa;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #000000;
+}
+
+figcaption {
+  height: 20px;
+
+  background-color: #8a99aa;
+  border: 1px solid #8a99aa;
+  font-size: 15px; /* or try '1.2em', 'larger', etc. */
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}

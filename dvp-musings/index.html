@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    setUserName(); // run automatically on page load
+  });
+</script>
+
+<title>Live Clock</title>
+<style>
+  #clock {
+    font-size: 2em;
+      color: #8914ff; /* neon green */
+      text-shadow: 0 0 5px #8914ff, 0 0 10px #8914ff, 0 0 20px #8914ff;
+  }
+</style>
+    <div id="clock">Loading...</div>
+
+<script>
+  function updateClock() {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString();
+    document.getElementById('clock').textContent = timeString;
+  }
+
+  updateClock();
+  setInterval(updateClock, 1000);
+</script>
+
+
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <body>
+      <h1>DVP Musings</h1>
+
+    <p>
+        Welcome to my musings. Pour your heart & mind out into the following
+        areas..
+      </p>
+
+<body>
+    <!-- 4 heading levels: -->
+    <h2>Professional Interests</h2>
+    <h2>Sports Activities</h2>
+    <h2>Travel & Hobbies</h2>
+    <h2>Common topics of Interests</h2>
+
+    <link href="styles/style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script async src="scripts/main.js"></script>
+  </head>
+
+  <body>
+    <p>
+      At DVP Musings, we're a global community of friends with mutual interestes
+      & lifelong associations in the areas as below, where we have been involved
+      & working together…
+    </p>
+
+    <ul>
+      <li>Professional Interests</li>
+      <li>Sports Activities</li>
+      <li>Travel & Hobbies</li>
+      <li>Topics of Interests</li>
+    </ul>
+
+    <p>
+      This website is an attempt to interect with the world to give & seek
+      commont interests. Some of the topics highlighted above would be the areas
+      I would like to have a keen discussion.
+    </p>
+
+    <p>
+      Let's start with sports. Cricket has been a life long passion and the
+      interest started after following the great exploits of my hero Sunil
+      Gavaskar. Here he is weilding the bat, just like the Boss he was at the
+      crease. Presenting the great man on whom the fate of Indian Cricket
+      batting fortunes relied for about two decades.
+    </p>
+
+    <p>
+      <a
+        href="https://www.espncricinfo.com/story/sunil-gavaskar-at-75-the-hero-before-india-were-champions-1442825"
+        >With Gavaskar we believed, without him we despaired</a
+      >
+    </p>
+    <figure>
+      <img src="sunny-1.jpg" alt="Little Master" />
+      <figcaption>Little Master</figcaption>
+    </figure>
+
+    <p>
+      Continuing with sports heroes, here is my other hero of the game I took a
+      liking to in the middle of of my career..Tennis.. Presenting the legend &
+      GOAT of the game..Roger Federer Do read the wonderful article Roger as a
+      religious experience below. Worth a read..'
+    </p>
+
+    <p>
+      <a
+        href="https://www.nytimes.com/2006/08/20/sports/playmagazine/20federer.html"
+      >
+        Roger as a religious experience.
+      </a>
+    </p>
+    <figure>
+      <img src="roger-1.jpg" alt="The GOAT" />
+      <figcaption>The GOAT</figcaption>
+    </figure>
+
+    <button>Change user</button>
+  </body>
+</html>
